@@ -2,8 +2,8 @@ import logging
 from json import JSONDecodeError
 
 from flask import Blueprint, render_template, request, abort
-from coursework2.coursework2.coursework2.app.posts.dao.posts_dao import PostsDAO
-from coursework2.coursework2.coursework2.app.posts.dao.comments_dao import CommentsDAO
+from coursework2.coursework2.coursework22.coursework2.app.posts.dao.posts_dao import PostsDAO
+from coursework2.coursework2.coursework22.coursework2.app.posts.dao.comments_dao import CommentsDAO
 
 posts_blueprint = Blueprint('posts_blueprint', __name__, template_folder="templates")
 posts_dao = PostsDAO("data/posts.json")

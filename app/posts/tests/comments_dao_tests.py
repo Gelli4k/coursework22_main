@@ -1,6 +1,6 @@
 import pytest
 
-from coursework2.coursework2.coursework2.app.posts.dao.comments_dao import CommentsDAO
+from coursework2.coursework2.coursework22.app.posts.dao.comments_dao import CommentsDAO
 
 
 class TestCommentsDAO:

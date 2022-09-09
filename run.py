@@ -1,8 +1,9 @@
 from flask import Flask
 
-from coursework2.coursework2.coursework2.app.posts.views import posts_blueprint
-from coursework2.coursework2.coursework2.app.api.views import api_blueprint
-from coursework2.coursework2.coursework2.app import logger
+
+from coursework2.coursework2.coursework22.coursework2.app.posts.views import posts_blueprint
+from coursework2.coursework2.coursework22.coursework2.app.api.views import api_blueprint
+from coursework2.coursework2.coursework22.coursework2.app import logger
 
 
 app = Flask(__name__)

@@ -1,5 +1,5 @@
 from pprint import pprint as pp
-from coursework2.coursework2.coursework2.app.posts.dao.posts_dao import PostsDAO
+from coursework2.coursework2.coursework22.app.posts.dao.posts_dao import PostsDAO
 
 d = PostsDAO("data/posts.json")
 
