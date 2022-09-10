@@ -2,8 +2,8 @@ import logging
 
 from flask import Blueprint, jsonify
 
-from coursework2.coursework2.coursework22.coursework2.app.posts.dao.posts_dao import PostsDAO
-from coursework2.coursework2.coursework22.coursework2.app.posts.dao.comments_dao import CommentsDAO
+from app.posts.dao.posts_dao import PostsDAO
+from app.posts.dao.comments_dao import CommentsDAO
 
 api_blueprint = Blueprint('api_blueprint', __name__)
 
