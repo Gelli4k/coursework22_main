@@ -2,7 +2,7 @@ import os
 
 
 import pytest
-from coursework2.coursework2.coursework22.app.posts.dao.posts_dao import PostsDAO
+from app.posts.dao.posts_dao import PostsDAO
 
 
 class TestPostDao:
